@@ -1,19 +1,7 @@
 {
-  "id": "ninjaone-agent",
+  "id": "ninjaone_agent",
   "name": "NinjaOne Agent",
   "version": "1.0.0",
-  "summary": "NinjaOne RMM agent for IGEL OS 12",
-  "description": "Installs the NinjaOne Linux agent from an uploaded .deb (.deb.bz2) using dpkg and enables its service.",
-  "vendor": "NinjaOne",
-  "homepage": "https://www.ninjaone.com/",
-  "license": "Proprietary",
-  "arch": [
-    "x86_64"
-  ],
-  "os_min_version": "12.5.0",
-  "categories": [
-    "management"
-  ],
   "scripts": {
     "install": "igel/install.sh",
     "uninstall": "igel/uninstall.sh"
