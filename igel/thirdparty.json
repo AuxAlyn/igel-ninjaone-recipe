@@ -1,3 +1,8 @@
 [
-  "ninjaone-agent.deb.bz2"
+  {
+    "url": "file:///tmp/ninjaone-agent.deb.bz2",
+    "licenses": [
+      { "name": "Proprietary" }
+    ]
+  }
 ]
