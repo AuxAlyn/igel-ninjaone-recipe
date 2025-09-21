@@ -1,9 +1,14 @@
 {
-  "id": "ninjaone_agent",
-  "name": "NinjaOne Agent",
-  "version": "1.0.0",
-  "scripts": {
-    "install": "igel/install.sh",
-    "uninstall": "igel/uninstall.sh"
-  }
+  "categories": ["Miscellaneous"],
+  "icons": {
+    "app": "app.png",
+    "monochrome": "monochrome.png"
+  },
+  "name": "ninjaone",
+  "author": "Alyn Peden",
+  "vendor": "NinjaOne",
+  "summary": {
+    "en": "NinjaOne RMM Agent (Linux)"
+  },
+  "version": "1.0.0"
 }
